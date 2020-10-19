@@ -39,9 +39,9 @@ async def main(request: Request):
 
 @app.get("/icon")
 async def google_meet_icon():
-    return FileResponse("src/icons/google_meet.png")
+    return FileResponse("icons/google_meet.png")
 
 
 @app.get("/image")
 async def meeting_image():
-    return FileResponse("src/icons/emergency_meeting.png")
+    return FileResponse("icons/emergency_meeting.png")
