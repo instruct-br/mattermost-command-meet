@@ -16,4 +16,6 @@ O comando retorna o link da sala, assim como uma mensagem marcando todos os usu�
 
 ## Adicionando o comando ao Mattermost
 
-Para adicionar o comando, siga [este](https://docs.mattermost.com/developer/slash-commands.html#custom-slash-command) guia.
+- Para adicionar o comando, siga [este](https://docs.mattermost.com/developer/slash-commands.html#custom-slash-command) guia.
+- Após criar o programa, você receberá um `token`
+- Crie um arquivo `.env` dentro de `src` com o campo `MATTERMOST_TOKEN=<token>`
